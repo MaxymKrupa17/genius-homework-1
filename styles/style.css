@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+}
+
+.secondary-title {
+  font-family: Play;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+}
+
+.second-side {
+  color: var(--primary-text-blue-color);
+}
+
+/* Hero */
+
+.hero-container {
+  width: 530px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  outline: 1px solid black;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.primary-title {
+  color: var(--primary-text-blue-color);
+
+  font-weight: 700;
+  font-size: bold;
+  font-size: 140px;
+  letter-spacing: calc(114 / 140);
+}
+
+.button {
+  padding: 16px 32px;
+  border: 1px solid var(--primary-text-blue-color);
+  border-radius: 32px;
+
+  background-color: var(--primary-text-blue-color);
+  color: var(--white-color);
+
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.hero p {
+  color: var(--secondary-text-brown-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(18 / 12);
+}
+
+/* reincarnation */
+
+.reincarnation p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: calc(38 / 22);
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Why us? */
+
+.why-us {
+  text-align: center;
+}
+
+.why-us p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+}
+
+/* How find us? */
+
+.subtitle {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+}
